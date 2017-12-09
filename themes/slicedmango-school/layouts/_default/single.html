@@ -1,0 +1,27 @@
+{{ define "header" }}{{ partial "page-header.html" . }}{{ end }}
+{{ define "main" }}
+<div class="flex items-start items-stretch flex-wrap px2 md-px4 pt4">
+  <aside class="col-12 md-col-4 px2">
+    {{ partial "menu-contextual.html" . }}
+  </aside>
+  <article class="col-12 md-col-8 bg-white border border-silver">
+    <header class="border-bottom border-silver mb4 px2 md-px4 py2">
+      <p class="h6 bold caps mb2">
+        {{ humanize .Section | upper  }}
+      </p>
+      <h1 class="f1">
+        {{ .Title }}
+      </h1>      
+    </header>
+    {{ $banner := .Param "banner" }}
+    {{ if $banner }}
+    {{/* Trimming the slash and adding absURL make sure the image works no matter where our site lives */}}
+    {{ $banner := (trim $banner "/") | absURL }}
+    <div class="px2 md-px4" ><img class="fit"  src="{{ $banner }}"/></div>
+    {{ end }}
+    <div class="px2 md-px4 pb4 pt1">
+      {{ .Content }}
+    </div>
+  </article>
+</div>
+{{ end }}
