@@ -1,11 +1,10 @@
 ---
-title: "School Captain"
-date: 2017-12-04T16:06:42+05:30
-draft: true
-keywords: ""
-description: ""
----
+title: School Captain
+date: 2017-12-04 16:06:42 +0530
+keywords: ''
+description: ''
 
+---
 "Madhusthali Vidyapeeth has forever been an institution of creativity and innovation. The motto of the schoolhas 
 always been to craft students into successful global citizens of thefuture.The school curriculum goes beyond academics and inculcates the desire to excel in fields like sports and music along with academics,
 amongst the students. I welcome everyone to join our family and be a part of the amazing experience amidst nature at Madhusthali Vidyapeeth."
