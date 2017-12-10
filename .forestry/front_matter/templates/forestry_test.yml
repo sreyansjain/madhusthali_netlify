@@ -1,0 +1,36 @@
+---
+hide_body: false
+fields:
+- type: text
+  label: Title
+  name: title
+  config:
+    required: true
+- type: datetime
+  name: date
+  label: Date
+- type: list
+  name: list
+  label: List
+  config:
+    use_select: false
+    source:
+      type: datafiles
+- type: file
+  name: banner
+  label: Banner
+  config:
+    maxSize: '0.5'
+- type: image_gallery
+  name: images
+  label: Images
+- type: field_group_list
+  name: links
+  label: Links
+  fields:
+  - type: textarea
+    name: name
+    label: Name
+  - type: textarea
+    label: Link
+    name: link
