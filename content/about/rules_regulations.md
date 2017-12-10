@@ -1,10 +1,10 @@
 ---
-title: "Rules and Regulations"
-date: 2017-12-04T16:06:42+05:30
-draft: true
-keywords: ""
-description: ""
+title: Rules and Regulations
+date: 2017-12-04 16:06:42 +0530
+keywords: ''
+description: ''
 banner: "/images/school.jpg"
+
 ---
 A high standard of behaviour is maintained and children are taught to give due respect to their elders and to appreciate and regard the opinions of others. Thus discipline plays a vital role in our institution.
 What follows is a set of instructions and guide lines for the student community as well as for their parents
