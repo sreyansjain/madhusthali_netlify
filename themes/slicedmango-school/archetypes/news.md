@@ -4,4 +4,5 @@ date = {{ .Date }}
 [[news]]
     item = ""
     link = ""
+[[news]]
 +++
