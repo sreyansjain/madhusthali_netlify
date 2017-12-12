@@ -1,7 +1,4 @@
 ---
-pages:
-- test/new-post.md
-- about/test.md
 hide_body: false
 fields:
 - name: title
