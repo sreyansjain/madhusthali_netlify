@@ -1,0 +1,5 @@
+{{ define "main" }}
+{{range $.Param "news"}}
+<a href="{{.link}}">{{.item}}</a>
+{{end}}
+{{ end }}
