@@ -4,6 +4,6 @@ date = {{ .Date }}
 tags = []
 keywords = ""
 description = ""
-banner = ""
+banner = "/uploads/:year:/:month:/:day:/filename.ext"
 images = []
 +++
