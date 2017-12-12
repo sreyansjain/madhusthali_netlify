@@ -7,6 +7,8 @@ auto_deploy: false
 admin_path: 
 webhook_url: 
 sections:
+  news:
+    default_front_matter_template: news
   gallery:
     default_front_matter_template: gallery
 version: 0.31.1
