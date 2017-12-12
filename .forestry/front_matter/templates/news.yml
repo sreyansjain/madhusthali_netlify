@@ -1,0 +1,35 @@
+---
+pages:
+- news.md
+hide_body: false
+fields:
+- name: title
+  label: Title
+  type: text
+  hidden: false
+  default: ''
+- name: date
+  label: Date
+  type: text
+  hidden: false
+  default: ''
+- name: news
+  label: News
+  type: field_group_list
+  fields:
+  - name: item
+    label: Item
+    type: text
+    hidden: false
+    default: ''
+  - name: link
+    label: Link
+    type: text
+    hidden: false
+    default: ''
+  hidden: false
+  default:
+  - item: ''
+    link: ''
+  - item: ''
+    link: ''
